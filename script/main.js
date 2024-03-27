@@ -35,6 +35,7 @@ window.addEventListener('load', function() {
 function openPic(clickedPic) {
     const div = document.getElementById("pop");
     div.classList.remove("hidden");
+    document.body.classList.add("fix");
 
     document.querySelector(".pop_img").src = clickedPic.src;
 }
