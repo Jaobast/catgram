@@ -33,20 +33,20 @@ const profiles = [
         'https://i.pinimg.com/564x/62/05/f1/6205f1960e1411dafaa63ede63d67e32.jpg',
         'https://i.pinimg.com/564x/95/7b/86/957b86f841ffc883b0f29dd0ecde3162.jpg',
         'https://i.pinimg.com/564x/c2/bb/45/c2bb45814d2751c4e6cbf08a507ae62e.jpg',
-        'https://i.pinimg.com/564x/89/73/23/8973238711648f20a8c6ecd2a322a065.jpg',
-        'https://i.pinimg.com/564x/7f/02/29/7f022949626fc5dfcb01469657a85038.jpg',
         'https://i.pinimg.com/564x/ce/36/34/ce3634d93cfddc2651a57fe082e9be8f.jpg',
+        'https://i.pinimg.com/564x/7f/02/29/7f022949626fc5dfcb01469657a85038.jpg',
+        'https://i.pinimg.com/564x/c0/70/5d/c0705dc29257145094fd64c0471e4afa.jpg',
         'https://i.pinimg.com/564x/75/aa/05/75aa056f334f82eabf3fbb1c203c510e.jpg',
         'https://i.pinimg.com/564x/55/a9/02/55a902494cc0424e8384634c76cc413d.jpg',
-        'https://i.pinimg.com/564x/3d/9d/f8/3d9df80ca05936c49963c04f3992748f.jpg'
+        'https://i.pinimg.com/564x/89/73/23/8973238711648f20a8c6ecd2a322a065.jpg'
     ],
     text: [
         'Bruder, pass auf. Ich trage Waffen als Nägel.',
         'cat 02 tex 02',
         'cat 02 tex 03',
-        'cat 02 tex 04',
-        "Money is funny in the rich cat's world",
         "Only Lana can underdstand me, u know. don't trust anyone",
+        "Money is funny in the rich cat's world",
+        "digga? am i a stupid sandwich for u?",
         'cat 02 tex 07',
         'cat 02 tex 08',
         'cat 02 tex 09'
