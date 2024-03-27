@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img class="profil_pic" src="">
+        <img class="profil_pic">
         <div class="profil_anzahl">
             <h1 class="name_profil">@name</h1>
             <div class="anzahl">
@@ -37,8 +37,14 @@
             <img src="">
         </div>
         <div id="pop" class="hidden">
-            <img class="pop_img" src="">
-            <p></p>
+            <div class="pop_container">
+                <img class="pop_img" src="">
+                <div class="Legende">
+                    <img class="profil_pic2" src="">
+                    <p class="pop_text"></p>
+                </div>
+                <div class="close" onclick="closePic()"></div>
+            </div>
         </div>
     </main>
 

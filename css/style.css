@@ -69,9 +69,8 @@ header .name{
 
 #pop{
     position: absolute;
-    top: 45vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -85,17 +84,51 @@ header .name{
 
 .pop_img{
     width: 90vw;
-    height: 60vh;
+    height: 55vh;
     object-fit: cover;
     overflow: hidden;
     border-radius: 50px;
-    padding: 50px;
+    padding: 30px;
+    z-index: 11;
+}
+
+.pop_text{
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    z-index: 11;
+    grid-area: texto;
 }
 
 .hidden{
     display: none!important;
 }
 
+.close{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 .fix{
     position: fixed;
+}
+
+#pop .profil_pic2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    grid-area: bild;
+    margin-top: -17px;
+}
+
+.Legende{
+    display: grid;
+    grid-template-areas: 
+    "bild texto texto texto texto"
+    "bild texto texto texto texto";
+    padding: 0 30px;
 }

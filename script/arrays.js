@@ -41,12 +41,12 @@ const profiles = [
         'https://i.pinimg.com/564x/3d/9d/f8/3d9df80ca05936c49963c04f3992748f.jpg'
     ],
     text: [
-        'cat 02 tex 01',
+        'Bruder, pass auf. Ich trage Waffen als Nägel.',
         'cat 02 tex 02',
         'cat 02 tex 03',
         'cat 02 tex 04',
-        'cat 02 tex 05',
-        'cat 02 tex 06',
+        "Money is funny in the rich cat's world",
+        "Only Lana can underdstand me, u know. don't trust anyone",
         'cat 02 tex 07',
         'cat 02 tex 08',
         'cat 02 tex 09'

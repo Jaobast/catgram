@@ -2,6 +2,9 @@ function displayProfile(profile) {
     const profilePic = document.querySelector('.profil_pic');
     profilePic.src = profile.pics[0]; 
 
+    const profilePic2 = document.querySelector('.profil_pic2');
+    profilePic2.src = profile.pics[0]; 
+
     const nameProfiles = document.querySelectorAll('.name');
     nameProfiles.forEach(function(element) {
         element.textContent = profile.name;
@@ -35,7 +38,24 @@ window.addEventListener('load', function() {
 function openPic(clickedPic) {
     const div = document.getElementById("pop");
     div.classList.remove("hidden");
-    document.body.classList.add("fix");
+    
+    /* document.body.classList.add("fix"); */
 
-    document.querySelector(".pop_img").src = clickedPic.src;
+    const picSrc = clickedPic.src;
+    const profile = profiles.find(function(profile) {
+        return profile.pics.includes(picSrc);
+    });
+
+    if (profile) {
+        const popImg = document.querySelector(".pop_img");
+        popImg.src = picSrc;
+
+        const popText = document.querySelector(".pop_text");
+        popText.innerHTML = profile.text[profile.pics.indexOf(picSrc)];
+    }
+}
+
+function closePic(){
+        const div = document.getElementById("pop");
+        div.classList.add("hidden");
 }
