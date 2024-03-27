@@ -1,46 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@300&display=swap');
-
-body {
- text-align: center;
+html{
+    height: -webkit-fill-available;
+}
+body{
+    height: -webkit-fill-available;
+    margin: 0;
+    position: relative;
+}
+.profil_pic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    grid-area: pic;
 }
 
-h1 {
- font-family: 'Fredoka One', cursive;
+.profil_anzahl{
+    grid-area: anzahl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-textarea {
- width: 100%;
- height: 150px;
- padding: 12px;
- box-sizing: border-box;
- border: none;
- border-radius: 4px;
- background-color: seashell;
- resize: none;
+h1{
+    margin: -5px;
 }
 
-#addBtn {
- padding: 10px;
- margin: 10px;
- font-family: 'Montserrat', sans-serif;
+
+.anzahl{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.post {
- padding: 12px;
- margin: 12px;
- text-align: justify;
- background-color: lavenderblush;
- font-family: 'Lato', sans-serif;
+.anzahl p{
+    margin: 10px;
 }
 
-#new {
- padding: 12px;
- margin: 12px;
- background-color: mediumaquamarine;
+.profil_info{
+    grid-area: info;
 }
 
-#notification {
- padding: 12px;
- margin: 12px;
- background-color: coral;
+header{
+    padding: 15px;
+    display: grid;
+    grid-template-areas: 
+    "pic anzahl anzahl"
+    "pic anzahl anzahl"
+    "info info info";
+}
+
+header .name{
+    font-weight: bold;
+}
+
+#pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#pics img{
+    background-color: rgb(101, 101, 101);
+    width: 33vw;
+    height: 33vw;
+    cursor: pointer;
+}
+
+#pop{
+    position: absolute;
+    top: 45vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 85vw;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+    z-index: 2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pop_img{
+    width: 80vw;
+    height: 80vw;
+    object-fit: cover;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.hidden{
+    display: none!important;
 }
