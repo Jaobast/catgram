@@ -39,7 +39,7 @@ function openPic(clickedPic) {
     const div = document.getElementById("pop");
     div.classList.remove("hidden");
     
-    /* document.body.classList.add("fix"); */
+    document.body.classList.add("fix");
 
     const picSrc = clickedPic.src;
     const profile = profiles.find(function(profile) {
