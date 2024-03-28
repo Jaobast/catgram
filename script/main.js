@@ -1,9 +1,9 @@
 function displayProfile(profile) {
     const profilePic = document.querySelector('.profil_pic');
-    profilePic.src = profile.pics[0]; 
+    profilePic.src = profile.pic_profil; 
 
     const profilePic2 = document.querySelector('.profil_pic2');
-    profilePic2.src = profile.pics[0]; 
+    profilePic2.src = profile.pic_profil; 
 
     const nameProfiles = document.querySelectorAll('.name');
     nameProfiles.forEach(function(element) {
