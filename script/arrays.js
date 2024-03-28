@@ -21,8 +21,7 @@ const profiles = [
         'cat 01 tex 05',
         'cat 01 tex 06',
         'cat 01 tex 07',
-        'cat 01 tex 08',
-        'cat 01 tex 09'
+        'cat 01 tex 08'
     ]
 },
 
@@ -42,14 +41,13 @@ const profiles = [
     ],
     text: [
         'Bruder, pass auf. Ich trage Waffen als Nägel.',
-        'cat 02 tex 02',
-        'cat 02 tex 03',
+        'My mom is Naomi, My dad is Nigga.',
+        'ich füttere meine Seele mit Lesenstoff. Lesen ist nicht nur eine Quelle der Bildung, sondern auch Nahrung für die Seele. Es öffnet Türen zu neuen Welten, erweitert unseren Horizont und ermöglicht es uns, uns in die Gedanken anderer einzufühlen.',
         "Only Lana can underdstand me, u know. don't trust anyone",
         "Money is funny in the rich cat's world",
         "digga? am i a stupid sandwich for u?",
-        'cat 02 tex 07',
-        'cat 02 tex 08',
-        'cat 02 tex 09'
+        'more content only in my Catfans 🔥🔥🔥. 45% dicount for the first new 50 fans',
+        'when I smile the kitties bow to me'
     ]
 }
 ]
