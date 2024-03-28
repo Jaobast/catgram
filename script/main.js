@@ -58,4 +58,6 @@ function openPic(clickedPic) {
 function closePic(){
         const div = document.getElementById("pop");
         div.classList.add("hidden");
+
+        document.body.classList.remove("fix");
 }
