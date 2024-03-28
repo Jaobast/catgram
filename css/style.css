@@ -5,30 +5,44 @@ body{
     height: -webkit-fill-available;
     margin: 0;
     position: relative;
+    
 }
 .profil_pic{
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-    grid-area: pic;
+}
+
+.name_container{
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+}
+
+h1{
+    margin-top: -20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.profil_info{
+    margin-top: -15px;
+}
+
+.profil_info p{
+    margin-top: -15px;
 }
 
 .profil_anzahl{
-    grid-area: anzahl;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
 
-h1{
-    margin: -5px;
-}
-
-
 .anzahl{
-    margin-top: 15px;
+    margin: 22vh 0 10px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,33 +52,28 @@ h1{
     margin: 10px;
 }
 
-.profil_info{
-    grid-area: info;
-}
-
 header{
     padding: 15px;
-    display: grid;
-    grid-template-areas: 
-    "pic anzahl anzahl"
-    "pic anzahl anzahl"
-    "info info info";
-}
-
-header .name{
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #pics{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0 12px;
 }
 
 #pics img{
     background-color: rgb(101, 101, 101);
-    width: 33vw;
-    height: 33vw;
+    width: 43vw;
+    height: 65vw;
     cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 #pop{

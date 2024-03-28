@@ -27,7 +27,7 @@ const profiles = [
 },
 
 {
-    name: 'Andreson',
+    name: 'Andreson Lebran',
     name_profil: '@cat_black',
     pics: [
         'https://i.pinimg.com/564x/62/05/f1/6205f1960e1411dafaa63ede63d67e32.jpg',
