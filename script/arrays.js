@@ -46,7 +46,7 @@ const profiles = [
         "Only Lana can underdstand me, u know. don't trust anyone",
         "Money is funny in the rich cat's world",
         "digga? am i a stupid sandwich for u?",
-        'more content only in my Catfans 🔥🔥🔥. 45% dicount for the first new 50 fans',
+        'more content only in my Catfans 🔥🔥🔥. 45% discount for the first new 50 fans',
         'when I smile the kitties bow to me'
     ]
 }

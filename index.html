@@ -26,7 +26,7 @@
             <div class="anzahl">
                 <p class="beitrag_anzahl"> Beiträge</p>
                 <p class="follower_anzahl"> Follower</p>
-                <p class="gefolgt_anzahl"> Gefolgt</p>
+                <p class="gefolgt_anzahl" onclick="openGefolgt()"> Gefolgt</p>
             </div>
         </div>
     </header>
@@ -44,6 +44,8 @@
             <img src="">
             <img src="">
         </div>
+
+        <!-- FOTOBOX   FOTOBOX   FOTOBOX   FOTOBOX -->
         <div id="pop" class="hidden">
             <div class="pop_container">
                 <img class="pop_img" src="">
@@ -55,10 +57,22 @@
                 <div class="close" onclick="closePic()"></div>
             </div>
         </div>
+
+        <!-- PROFILBOX   PROFILBOX   PROFILBOX   PROFILBOX -->
+        <div id="gefolgt" class="hidden">
+            <div class="profile">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div class="close" onclick="closeGefolgt()"></div>
+        </div>
+
     </main>
 
 
     <script src="./script/arrays.js"></script>
     <script src="./script/main.js"></script>
+    <script src="./script/open.js"></script>
 </body>
 </html>
