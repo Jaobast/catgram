@@ -28,6 +28,13 @@ function openProfileGefolgt() {
 
         if (display) {
             displayProfile(display);
+            
+            // Adiciona a classe hidden ao elemento com ID "gefolgt" quando um perfil é aberto
+            const div = document.getElementById("gefolgt");
+            div.classList.add("hidden");
+
+            // Remove a classe "fix" do body quando um perfil é aberto
+            document.body.classList.remove("fix");
         }
     }
 
@@ -38,4 +45,5 @@ function openProfileGefolgt() {
 }
 
 openProfileGefolgt();
+
 
