@@ -28,7 +28,7 @@ function displayProfile(profile) {
 
 window.addEventListener('load', function() {
     const profileCatBlack = profiles.find(function(profile) {
-        return profile.name_profil === '@lebran_andi';
+        return profile.name_profil === '@otavio';
     });
     if (profileCatBlack) {
         displayProfile(profileCatBlack);
