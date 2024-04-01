@@ -66,14 +66,14 @@ const profiles = [
         'https://i.pinimg.com/564x/ce/78/a1/ce78a1730ed5e121c5b0e7559f157c43.jpg'
     ],
     text: [
-        'Flavia tex 01',
-        'Flavia tex 02',
-        'Flavia tex 03',
-        'Flavia tex 04',
-        'Flavia tex 05',
-        'Flavia tex 06',
-        'Flavia tex 07',
-        'Flavia tex 08'
+        "Hi babes. Don't forget, I love you all",
+        'Pretty girl',
+        'I love being the perfect girl for my man',
+        'Do I look fancy?',
+        'I love Italy so much I love pizza',
+        'Fall nd Taylor Swift song',
+        'A girl need spa day',
+        'Chill, Live, Love'
     ]
 },
 
