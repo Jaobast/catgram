@@ -165,18 +165,35 @@ h1{
     border-radius: 500px;
 }
 
-.profile{
+.profile_container{
     display: flex;
     flex-direction: column;
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 
-.profile button{
+.profile_container img{
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
     border: none;
     background-color: rgb(121, 121, 121);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_name{
+    margin-top: -10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.name_profil_gefolgt{
+    color: rgb(175, 175, 175);
+    font-size: 12px;
+    margin-top: -15px;
 }

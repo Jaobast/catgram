@@ -14,14 +14,14 @@ const profiles = [
         'https://i.pinimg.com/564x/41/9d/e1/419de1f77c3578a0ff939c8f0fbe49aa.jpg'
     ],
     text: [
-        'cat 01 tex 01',
-        'cat 01 tex 02',
-        'cat 01 tex 03',
-        'cat 01 tex 04',
-        'cat 01 tex 05',
-        'cat 01 tex 06',
-        'cat 01 tex 07',
-        'cat 01 tex 08'
+        'couple tex 01',
+        'couple tex 02',
+        'couple tex 03',
+        'couple tex 04',
+        'couple tex 05',
+        'couple tex 06',
+        'couple tex 07',
+        'couple tex 08'
     ]
 },
 
@@ -48,6 +48,58 @@ const profiles = [
         "digga? am i a stupid sandwich for u?",
         'more content only in my Catfans 🔥🔥🔥. 45% discount for the first new 50 fans',
         'when I smile the kitties bow to me'
+    ]
+},
+
+{
+    name: 'Flavia',
+    name_profil: '@flafla',
+    pic_profil: 'https://i.pinimg.com/564x/28/98/2c/28982c93b8556836ab1fa2adc525db5c.jpg',
+    pics: [
+        'https://i.pinimg.com/564x/74/d3/1b/74d31bf44949571fe4b9e22ee81c605e.jpg',
+        'https://i.pinimg.com/564x/d1/09/d1/d109d1f5b7209aca2295f6ba7263c0db.jpg',
+        'https://i.pinimg.com/564x/8a/9c/81/8a9c81823b3f7727eefb8de133082a83.jpg',
+        'https://i.pinimg.com/564x/21/54/84/215484264a6b1e9ab2d78f08ffbfaba0.jpg',
+        'https://i.pinimg.com/564x/b6/a3/71/b6a371eef61679acc1d0a1439c388de1.jpg',
+        'https://i.pinimg.com/564x/9a/de/1b/9ade1b1de2e0db56246dde15fa10b2d2.jpg',
+        'https://i.pinimg.com/564x/d6/3f/31/d63f3186970ffe32cdaf5142539ec2c8.jpg',
+        'https://i.pinimg.com/564x/ce/78/a1/ce78a1730ed5e121c5b0e7559f157c43.jpg'
+    ],
+    text: [
+        'Flavia tex 01',
+        'Flavia tex 02',
+        'Flavia tex 03',
+        'Flavia tex 04',
+        'Flavia tex 05',
+        'Flavia tex 06',
+        'Flavia tex 07',
+        'Flavia tex 08'
+    ]
+},
+
+{
+    name: 'Janis',
+    name_profil: '@big.jan',
+    pic_profil: 'https://i.pinimg.com/564x/d2/b1/6f/d2b16fea40e0b471bf775ec5b5a0df3a.jpg',
+    pics: [
+        'https://i.pinimg.com/564x/f6/4d/cb/f64dcb48d4a5c98d8154e3474fca015c.jpg',
+        'https://i.pinimg.com/564x/6f/a2/19/6fa219982dfcbe811123a78cfaf88cfe.jpg',
+        'https://i.pinimg.com/564x/49/23/5e/49235efad394c5e7bf92e515917c702d.jpg',
+        'https://i.pinimg.com/564x/2d/1a/d4/2d1ad4601985bdfd1fe2b4f8f0026686.jpg',
+        'https://i.pinimg.com/564x/91/e9/80/91e980e59fa0f272dcba0ad8cbcc2bb0.jpg',
+        'https://i.pinimg.com/564x/ab/19/2c/ab192c77af21bd86880e6b7262d50af6.jpg',
+        'https://i.pinimg.com/564x/3a/f6/05/3af605c0eac36c1af0eae70a298ef178.jpg',
+        'https://i.pinimg.com/564x/35/fc/54/35fc542106f654ed531c7cad94016d95.jpg'
+    ],
+    text: [
+        'Janis tex 01',
+        'Janis tex 02',
+        'Janis tex 03',
+        'Janis tex 04',
+        'Janis tex 05',
+        'Janis tex 06',
+        'Janis tex 07',
+        'Janis tex 08'
     ]
 }
 ]
